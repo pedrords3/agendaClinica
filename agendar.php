@@ -133,8 +133,8 @@ if (isset($_GET['success']) && $_GET['success'] == 1) {
 
                 <div class="card shadow-sm">
                     <div class="card-header bg-primary text-white">
-                        <h5 class="card-title mb-0">
-                            <i class="fas fa-calendar-plus me-2"></i>Preencha os dados da consulta
+                        <h5 class="card-title mb-0 text-white">
+                            <i class="fas fa-calendar-plus me-2 text-white"></i>Preencha os dados da consulta
                         </h5>
                     </div>
                     <div class="card-body">
