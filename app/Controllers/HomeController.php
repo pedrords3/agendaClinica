@@ -1,0 +1,15 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Controllers;
+
+use App\Core\Auth;
+use App\Core\Request;
+use App\Core\Response;
+
+final class HomeController extends Controller
+{
+    public function index(Request $request): never { Response::redirect(Auth::check()?'/dashboard':'/login'); }
+}
+
